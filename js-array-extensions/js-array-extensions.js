@@ -1,23 +1,17 @@
 // your code here
 
-var ArrayExtend=function(){
-	var storage=[];
+Array.prototype.first=function(){
+	return this[0]
 	
-	_.extend(storage,someinstances)
-	return storage;
-};
+}
 
-
-var someinstances={}
-
-	someinstances.first = function(){
-		return this.storage[0]
-	}
-
-	someinstances.last = function(){
-		return this.storage[this.storage.length-1]
-	}
+Array.prototype.last=function(){
+	return this[this.length-1]
 	
+}
+
+	
+
 
 
 
